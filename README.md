@@ -141,7 +141,7 @@ Now you already setup for the sim and the grasping backend, we can start to inte
 
 You can refer to an introductory [Colab](https://colab.research.google.com/drive/1qinP-0Tsug-yYW8RfYqCKUJpxDSEMBFT?usp=sharing) notebook that demonstrates the examples of planning.
 
-Remember to set the Openai API key and Doubao API key.
+Remember to set the Openai API key.
 
 ## Citations
 
