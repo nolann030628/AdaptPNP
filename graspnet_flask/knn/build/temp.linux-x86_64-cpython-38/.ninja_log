@@ -1,0 +1,10 @@
+# ninja log v6
+2	300	1751861330784146820	/home/admin02/graspnet-baseline/knn/build/temp.linux-x86_64-cpython-38/home/admin02/graspnet-baseline/knn/src/cuda/knn.o	6cf85d64610abdfa
+2	4131	1751861330784146820	/home/admin02/graspnet-baseline/knn/build/temp.linux-x86_64-cpython-38/home/admin02/graspnet-baseline/knn/src/cpu/knn_cpu.o	da18a18ca1e29f2d
+2	7733	1751861330784146820	/home/admin02/graspnet-baseline/knn/build/temp.linux-x86_64-cpython-38/home/admin02/graspnet-baseline/knn/src/vision.o	dca99f637248e212
+1	343	1752476930744787798	/home/crtie/crtie/Manual2Skill2/LLM_TAMP/graspnet_flask/knn/build/temp.linux-x86_64-cpython-38/home/crtie/crtie/Manual2Skill2/LLM_TAMP/graspnet_flask/knn/src/cuda/knn.o	307704b1fcddb298
+1	4340	1752476930744787798	/home/crtie/crtie/Manual2Skill2/LLM_TAMP/graspnet_flask/knn/build/temp.linux-x86_64-cpython-38/home/crtie/crtie/Manual2Skill2/LLM_TAMP/graspnet_flask/knn/src/cpu/knn_cpu.o	bc07e3088b2086a7
+1	7670	1752476930744787798	/home/crtie/crtie/Manual2Skill2/LLM_TAMP/graspnet_flask/knn/build/temp.linux-x86_64-cpython-38/home/crtie/crtie/Manual2Skill2/LLM_TAMP/graspnet_flask/knn/src/vision.o	b5f369758f68760
+0	319	1755415207768065010	/home/crtie/crtie/Manual2Skill2/LLM_TAMP/graspnet_flask/knn/build/temp.linux-x86_64-cpython-38/home/crtie/crtie/Manual2Skill2/LLM_TAMP/graspnet_flask/knn/src/cuda/knn.o	a20aa13e1c859fbd
+0	4048	1755415207768065010	/home/crtie/crtie/Manual2Skill2/LLM_TAMP/graspnet_flask/knn/build/temp.linux-x86_64-cpython-38/home/crtie/crtie/Manual2Skill2/LLM_TAMP/graspnet_flask/knn/src/cpu/knn_cpu.o	bc6465bc9573d9cb
+1	7572	1755415207769065014	/home/crtie/crtie/Manual2Skill2/LLM_TAMP/graspnet_flask/knn/build/temp.linux-x86_64-cpython-38/home/crtie/crtie/Manual2Skill2/LLM_TAMP/graspnet_flask/knn/src/vision.o	3a73e6815d3320f6

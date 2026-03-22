@@ -1,0 +1,34 @@
+Given a failed action attempt, a top-down RGB image and a front RGB image of the current tabletop scene, your job is to analyze both images and determine the reason for the action failure.
+You should detect if the failure is due to one of the following error types and return the appropriate error type.
+
+{
+  "error_types": [
+    {
+      "type": "push_path_obstructed",
+      "description": "An obstacle is on the path between the object's initial position and the target location, preventing it from being pushed directly to the target. The object either got knocked off the table or stopped in front of an obstacle."
+    },
+    {
+      "type": "push_falls_down",
+      "description": "Push the object to the table edge but the object falls down."
+    },
+    {
+      "type": "rotate_up_fail",
+      "description": "The support beneath the object is unable to support the object when attempting to rotate it upwards. The object may tip over or become unstable."
+    },
+    {
+      "type": "rotate_down_fail",
+      "description": "There is no terrain difference available to perform a rotate down action."
+    },
+    {
+      "type": "grasp_fail",
+      "description": "Grasp is not stable. So the object falls down when grasped or moving or released. "
+    }
+  ]
+}
+
+Return the error type and its corresponding description based on the analysis of both the top-down and front views of the image.
+The output is a dictionary in JSON format with the following fields{
+  "error_type": "The identified error type from the available options.
+  "error_description": "The description of the error type, providing a detailed explanation of why the error occurs."
+}
+

@@ -1,0 +1,23 @@
+{
+    "version": "1.0",
+    "file_records": [
+        {
+            "source_url": "https://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/4.5/Isaac/Environments/Grid/Materials/Textures/WireframeBlur_basecolor.png",
+            "source_hash": "334f59bbf2768420132e1138e889ed4b46df68c5",
+            "target_url": "./SubUSDs/textures/WireframeBlur_basecolor.png",
+            "target_hash": "150ed178c0cc8255f7568287e2c428290ce02b47"
+        },
+        {
+            "source_url": "https://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/4.5/Isaac/Environments/Grid/Materials/Textures/WireframeBlur_blue.png",
+            "source_hash": "99922df2035a3c33aa242908bdc7332675e728d2",
+            "target_url": "./SubUSDs/textures/WireframeBlur_blue.png",
+            "target_hash": "86a866a30cb04575388721dc30735d938d1c7f97"
+        },
+        {
+            "source_url": "https://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/4.5/Isaac/Environments/Grid/Materials/Textures/Wireframe_blue.png",
+            "source_hash": "d3618b28226361a4144928dcbf5ec5ad1a594766",
+            "target_url": "./SubUSDs/textures/Wireframe_blue.png",
+            "target_hash": "416c5ec7892027b80bd5b96d41800de061609733"
+        }
+    ]
+}

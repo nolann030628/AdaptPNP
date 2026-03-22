@@ -1,0 +1,17 @@
+{
+    "version": "1.0",
+    "file_records": [
+        {
+            "source_url": "/home/zhujinxuan/Downloads/chocolate_bar/source/Hershey's Chocolate Bar/textures/Chocolate Bar Back.fw.png",
+            "source_hash": "880437a37be76b8d52adcea7bfabdb5a7d7c6ba6",
+            "target_url": "./SubUSDs/textures/Chocolate Bar Back.fw.png",
+            "target_hash": "3ff7e18d56db802f6fdbbcdfd7de6243987826cd"
+        },
+        {
+            "source_url": "/home/zhujinxuan/Downloads/chocolate_bar/source/Hershey's Chocolate Bar/textures/Chocolate Bar.fw.png",
+            "source_hash": "2301dca1344d0b1f810a8a76eb20ae7ba18afbe6",
+            "target_url": "./SubUSDs/textures/Chocolate Bar.fw.png",
+            "target_hash": "445582561ec35bf1fdaa786952b899746f4f69ca"
+        }
+    ]
+}

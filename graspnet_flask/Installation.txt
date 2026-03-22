@@ -1,0 +1,29 @@
+conda create -n graspnet python=3.8 -y
+conda activate graspnet
+conda install pytorch==1.9.0 torchvision==0.10.0 torchaudio==0.9.0 cudatoolkit=11.1 -c pytorch -c nvidia
+
+✅ 验证安装是否成功
+激活环境后，打开 Python：
+
+python
+>>> import torch
+>>> torch.__version__
+'1.9.0'
+>>> torch.version.cuda
+'11.1'
+>>> torch.cuda.is_available()
+True
+如果上述结果都正常，说明环境配置成功。
+
+pip install -r requirements.txt
+
+cd pointnet2
+python setup.py install
+
+cd knn
+python setup.py install
+
+cd graspnetAPI
+pip install .
+
+

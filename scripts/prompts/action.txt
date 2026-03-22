@@ -1,0 +1,46 @@
+The available action primitives are: {
+  {
+    action: push {object} to {place}
+    description: Push the object on the table to the target location, ensuring that there are no obstacles along the path. 
+    parameters: {
+      object: The object moves across the tabletop in the xy-plane to the target location. This is the only action that causes positional displacement on the tabletop.
+      place: The destination location where the object should be moved to.
+    }
+  },
+  {
+    action: rotate down {object} to {place}
+    description: Rotate the object on the table vertically to make it fall down onto an adjacent object or surface.
+    effect: The object rotates vertically (along the z-axis) to fall down, landing on an adjacent object or surface if present. This action changes the object's vertical state without altering its xy-position unless required by the fall.
+    parameters: {
+        object: The object to be rotated on the table.
+        place: The adjacent object or surface onto which the object falls.
+      }
+  },
+  {
+      action: rotate up {object} to {place}
+      description: Rotate the object on the table vertically to make it stand up and lean on support place, using an external support.
+      effect: The object rotates vertically (along the z-axis) to stand up, supported by an external terrain or object. This action changes the object's vertical state without altering its xy-position. It requires the object to be positioned adjacent to the support to succeed.
+      parameters: {
+        object: The object to be rotated on the table.
+        place: The external terrain or object used to support the object in standing up.
+      }
+  },
+  {
+    action: grasp {object}
+    description: Close the gripper to firmly grasp the specified object on the table.
+    parameters:{
+      object: The object to be grasped by the robot's gripper.
+    }
+  },
+  {
+    action: move to {place}
+    description: Move the object to the specified location after it has been grasped by the robot. This action assumes the object is already held by the gripper.
+    parameters:{
+      place: The location where the grasped object should be moved to.
+    }
+  },
+  {
+    action: release
+    description: Open the gripper to release the currently grasped object.
+  }
+}

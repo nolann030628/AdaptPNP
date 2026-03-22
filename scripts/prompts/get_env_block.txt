@@ -1,0 +1,8 @@
+You are given a front image of a table with a robot arm and a subtask. Based on the front image and the subtask's target object, Analyze the surroundings of the object and describe the status of each of its four sides: left, right, front, and back.
+
+For each side, determine: Whether it is empty, partly blocked (the obstacle does not cover more than half the object's height), or completely blocked (the obstacle covers more than half the height).
+
+Output:
+    The [target object]'s [side] is [blockage status].
+    e.g., The red cube's left is completely blocked. The red cube's right is partly blocked. The red cube's back is completely blocked. The red cube's front is empty.
+

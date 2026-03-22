@@ -1,0 +1,11 @@
+{
+    "version": "1.0",
+    "file_records": [
+        {
+            "source_url": "/home/zhujinxuan/Downloads/desk_book (1)/desk_book/textures/BAMBOO.png",
+            "source_hash": "eda84c83cf62e0204d8a42f5a66563bddf427105",
+            "target_url": "./SubUSDs/textures/BAMBOO.png",
+            "target_hash": "3ad6733904c70d01bd55943358ea92a21fa92b43"
+        }
+    ]
+}

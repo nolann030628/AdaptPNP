@@ -1,0 +1,23 @@
+{
+    "version": "1.0",
+    "file_records": [
+        {
+            "source_url": "/home/zhujinxuan/Downloads/Material_001.mdl",
+            "source_hash": "a1362b6f08e3489e5afadd49f0a63b7d63c8e39b",
+            "target_url": "./SubUSDs/materials/Material_001.mdl",
+            "target_hash": "2b3243550ef4214bac24011ff912a7db817a51e0"
+        },
+        {
+            "source_url": "/home/zhujinxuan/Downloads/Material_001_BAMBOO.png",
+            "source_hash": "821f6db0235881bb978b660bc03cd5c13b5e5972",
+            "target_url": "./SubUSDs/textures/Material_001/Material_001_BAMBOO.png",
+            "target_hash": "2df4bcba589a0421a1b74e243561080acd96783e"
+        },
+        {
+            "source_url": "/home/zhujinxuan/Downloads/Material_001_BAMBOO_0.png",
+            "source_hash": "0ca0f642a1b5aa47145f0a048c664125d225bbbf",
+            "target_url": "./SubUSDs/textures/Material_001/Material_001_BAMBOO_0.png",
+            "target_hash": "7c722485f6cfcb12959fee6750249f7be1a0bdfe"
+        }
+    ]
+}

@@ -1,0 +1,26 @@
+Given a failed grasp attempt, a top-down RGB image and a front RGB image of the current tabletop scene, your job is to analyze both images and determine the reason for the action failure.
+You should detect if the failure is due to one of the following error types and return the appropriate error type.
+
+{
+  "error_types": [
+    {
+      "type": "object_too_low",
+      "description": "The {object} is low on the table. Its small height leaves little or no clearance for the gripper to access from the sides or underneath without colliding with the surface. (e.g., energy bar, smart phone, card, clipboard)"
+    },
+    {
+      "type": "object_too_wide",
+      "description": "The {object} is too wide, and the gripper is not wide enough to grasp it. (e.g. box, chess board)"
+    },
+    {
+      "type": "object_blocked",
+      "description": "The {object} is considered blocked it is tightly constrained by more than two surrounding objects above the table, with no visible white gap between them.
+    }
+  ]
+}
+
+Return the error type and the reason why you choose this error based on the analysis of both the top-down and front views of the image.
+The output is a dictionary in JSON format with the following fields{
+  "error_type": "The identified error type from the available options.
+  "reason": "The reason why you choose this error type according to its description."
+}
+

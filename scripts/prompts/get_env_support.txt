@@ -1,0 +1,18 @@
+You are given a front image of a table and a list of subtasks.
+
+You can get {object}("object") from subtask's parameter.
+The target is "transparent target" (which seems grey in the picture).
+
+Based on the front image and the subtasks, please analyze the environment and answer the following questions:
+
+1. Object Position: Describe the position of {object} on the table. Is it on the left, right, or middle of the table? 
+2. Target Position: Describe the position of the target on the table relative to the object.  Is the target on the table with no height or on a raised area with height(e.g., on a grey cube or on another elevated object on the table)?
+3. Terrain Between Object and Target: Identify if there is slope/wall/groove/nothing between the {object} and the target. For example, if there is a gap between desk, it is a groove. If there is a raised object with an inclined surface, it is a slope.
+4. Terrain for Grasping: Are there any **terrain features** (wall, groove, slope, edge) on the table that can be utilized for repositioning or grasping the object? Describe the location of these features
+5. Summarize all available terrains: List and summarize all external terrains available, including walls, grooves, slopes, edges, or other raised objects.
+
+Output the environment description in the following format:
+    The card is on the right side of the table. The transparent target is on the left side of the table. The transparent target is on the surface with no height. There is a grey slope between the card and the transparent target. The table has edges on all sides. The available external terrains are grey slope and table edges.
+    The card is on the right side of the table. The white region is on the left side of the table. The white region is on the surface with no height. There is nothing between the card and the transparent target. The table has edges on all sides. The available external terrains are table edges.
+    The card is on the right side of the table. The transparent target is on the left side of the table. The red cube has height. There is a white groove between the card and the transparent target. The table has edges on all sides. The available external terrains are table edges and white groove.
+You must output the environment description.

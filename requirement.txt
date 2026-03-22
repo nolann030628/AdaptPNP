@@ -1,0 +1,6 @@
+open3d
+termcolor
+av
+supervision
+numpy==1.26.1
+openai
