@@ -143,11 +143,14 @@ You can refer to an introductory [Colab](https://colab.research.google.com/drive
 
 Remember to set the Openai API key.
 
-## Citations
+## Citation
 
+If you find this work useful, please cite:
+
+```bibtex
 @article{zhu2025adaptpnp,
-  title = {AdaptPNP: Integrating Prehensile and Non-Prehensile Skills for Adaptive Robotic Manipulation},
-  author = {Zhu, Jinxuan and Tie, Chenrui and Cao, Xinyi and Wang, Yuran and Guo, Jingxiang and Chen, Zixuan and Chen, Haonan and Chen, Junting and Xiao, Yangyu and Wu, Ruihai and Shao, Lin},
-  journal = {arXiv preprint arXiv:2511.11052},
-  year = {2025}
+  title={AdaptPNP: Integrating Prehensile and Non-Prehensile Skills for Adaptive Robotic Manipulation},
+  author={Zhu, Jinxuan and Tie, Chenrui and Cao, Xinyi and Wang, Yuran and Guo, Jingxiang and Chen, Zixuan and Chen, Haonan and Chen, Junting and Xiao, Yangyu and Wu, Ruihai and Shao, Lin},
+  journal={arXiv preprint arXiv:2511.11052},
+  year={2025}
 }
